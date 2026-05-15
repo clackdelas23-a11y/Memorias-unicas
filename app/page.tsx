@@ -441,7 +441,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-500">Distribuicao</div>
-                    <div className="text-lg font-bold">Maputo, Mocambique</div>
+                    <div className="text-lg font-bold"> Cidade de Maputo, Mocambique</div>
                   </div>
                 </div>
               </div>
