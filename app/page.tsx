@@ -15,6 +15,7 @@ import {
   Award,
   Droplets,
   ShieldCheck,
+  MessageCircle,
 } from "lucide-react";
 
 // --- Reusable Components ---
@@ -497,6 +498,18 @@ export default function Home() {
       >
         <ArrowUp />
       </motion.button>
+
+      <motion.a
+        href="https://wa.me/258845925528?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20produtos%20Mufuifresh"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-24 right-8 w-14 h-14 bg-[#25D366] hover:bg-[#1eaa4f] text-white rounded-full flex items-center justify-center z-50 shadow-2xl transition-colors"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        aria-label="Contacte-nos pelo WhatsApp"
+      >
+        <MessageCircle />
+      </motion.a>
     </div>
   );
 }
