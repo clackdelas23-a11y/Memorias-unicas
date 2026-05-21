@@ -348,7 +348,7 @@ export default function Home() {
             <div className="relative">
               <img
                 src=""
-                alt="Mercado"
+                alt="Mercado local"
                 className="rounded-[2rem] shadow-2xl w-full"
               />
             </div>
