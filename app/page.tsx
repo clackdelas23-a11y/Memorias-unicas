@@ -347,8 +347,8 @@ export default function Home() {
             </motion.div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1543352658-92901426f0e9?auto=format&fit=crop&q=80"
-                alt="Granja"
+                src=""
+                alt="Mercado"
                 className="rounded-[2rem] shadow-2xl w-full"
               />
             </div>
