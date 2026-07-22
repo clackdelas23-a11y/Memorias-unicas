@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gerador de Piadas Aleatórias</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="top">
+      <h1>Gerador de Piadas</h1>
+      <div class="fav-controls">
+        <button id="viewFavs" aria-haspopup="dialog" aria-controls="favPanel">Ver favoritos <span id="favCount" aria-hidden="true">0</span></button>
+      </div>
+    </header>
+
+    <div class="controls">
+      <select id="category" aria-label="Categoria da piada">
+        <option value="Any">Any</option>
+        <option value="Programming">Programming</option>
+        <option value="Misc">Misc</option>
+        <option value="Dark">Dark</option>
+        <option value="Pun">Pun</option>
+      </select>
+
+      <label><input type="checkbox" id="safeOnly" checked /> Sem conteúdo explícito</label>
+
+      <button id="getJoke">Receber Piada</button>
+    </div>
+
+    <section id="jokeCard" class="card hidden" aria-live="polite" aria-atomic="true">
+      <p id="jokeText" class="joke-text"></p>
+      <button id="reveal" class="hidden">Mostrar continuação</button>
+
+      <div class="actions">
+        <button id="copyBtn">Copiar</button>
+        <a id="tweetLink" target="_blank" rel="noopener" class="btn-link">Partilhar</a>
+        <button id="addFav" class="btn-fav" aria-pressed="false">Adicionar aos favoritos</button>
+      </div>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </main>
+
+  <!-- Favorites panel (dialog) -->
+  <div id="favPanel" class="fav-panel hidden" role="dialog" aria-modal="true" aria-labelledby="favTitle">
+    <div class="fav-inner">
+      <header class="fav-head">
+        <h2 id="favTitle">Favoritos</h2>
+        <div class="fav-actions">
+          <button id="clearFavs">Limpar tudo</button>
+          <button id="closeFavs">Fechar</button>
+        </div>
+      </header>
+      <ul id="favList" class="fav-list" tabindex="0"></ul>
+      <p id="noFavs" class="muted hidden">Ainda não tens favoritos.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
