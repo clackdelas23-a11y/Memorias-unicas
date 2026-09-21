@@ -68,7 +68,7 @@ export function Hero() {
 
         {/* CTA Button */}
         <a
-          href="https://wa.me/258878708695"
+          href="https://wa.me/258852990478"
           target="_blank"
           rel="noopener noreferrer"
           className="mb-16 inline-flex items-center gap-3 rounded-lg bg-gradient-to-r from-yellow-600 to-yellow-700 px-8 py-4 font-semibold text-black transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/50 md:px-10 md:py-5"
