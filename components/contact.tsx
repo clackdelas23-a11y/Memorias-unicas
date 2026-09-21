@@ -24,10 +24,10 @@ export function Contact() {
             </div>
             <h3 className="mb-2 font-semibold text-white">Telefone</h3>
             <a
-              href="tel:+258878708695"
+              href="tel:+258852990478"
               className="text-gray-300 transition-colors hover:text-yellow-500"
             >
-              +258 87 8708 695
+              +258 85 299 0478
             </a>
           </div>
 
