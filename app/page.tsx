@@ -422,7 +422,7 @@ export default function Home() {
                     <div className="text-sm text-gray-500">
                       Telefone / WhatsApp
                     </div>
-                    <div className="text-lg font-bold">+258 845925528</div>
+                    <div className="text-lg font-bold">+258 852990478</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-5">
@@ -500,7 +500,7 @@ export default function Home() {
       </motion.button>
 
       <motion.a
-        href="https://wa.me/258845925528?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20produtos%20Mufuifresh"
+        href="https://wa.me/258852990478?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20produtos%20Mufuifresh"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-24 right-8 w-14 h-14 bg-[#25D366] hover:bg-[#1eaa4f] text-white rounded-full flex items-center justify-center z-50 shadow-2xl transition-colors"
