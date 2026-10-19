@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Beldo K Muhalaque - Barbershop Premium',
+  title: 'Barbearia Premium',
   description: 'Mais do que cortes, criamos confiança e estilo. Experimente nossos serviços profissionais de barbearia.',
   icons: {
     icon: [

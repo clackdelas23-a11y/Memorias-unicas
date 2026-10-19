@@ -19,7 +19,7 @@ export function History() {
             </h3>
             <p className="text-lg leading-relaxed text-gray-300">
               Tudo começou com um sonho simples: criar um espaço onde cada homem pudesse sentir-se confiante, elegante e valorizado. Foi assim que nasceu a{' '}
-              <span className="font-semibold text-white">Beldo K Muhalaque Barbershop</span>, um salão de beleza e barbearia inspirado na paixão pelo estilo, pela autoestima e pelo cuidado com cada cliente.
+              <span className="font-semibold text-white">Barbearia Premium</span>, um salão de beleza e barbearia inspirado na paixão pelo estilo, pela autoestima e pelo cuidado com cada cliente.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ export function History() {
               Crescimento e Confiança
             </h3>
             <p className="text-lg leading-relaxed text-gray-300">
-              Desde os primeiros cortes feitos com dedicação e precisão, a Beldo K Muhalaque conquistou a confiança de amigos, vizinhos e clientes que procuravam mais do que um simples corte de cabelo. Procuravam um ambiente acolhedor, moderno e cheio de boa energia, onde cada visita se transforma numa experiência única.
+              Desde os primeiros cortes feitos com dedicação e precisão, a barbearia conquistou a confiança de amigos, vizinhos e clientes que procuravam mais do que um simples corte de cabelo. Procuravam um ambiente acolhedor, moderno e cheio de boa energia, onde cada visita se transforma numa experiência única.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export function History() {
               Nossa Missão
             </h3>
             <p className="text-lg leading-relaxed text-gray-300">
-              A Beldo K Muhalaque acredita que um bom corte não muda apenas a aparência; ele aumenta a confiança, abre portas e faz o cliente sair preparado para enfrentar qualquer desafio do dia a dia.
+              A Barbearia Premium acredita que um bom corte não muda apenas a aparência; ele aumenta a confiança, abre portas e faz o cliente sair preparado para enfrentar qualquer desafio do dia a dia.
             </p>
           </div>
 

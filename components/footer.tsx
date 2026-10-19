@@ -14,8 +14,8 @@ export function Footer() {
                 <Scissors className="h-5 w-5 text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-white">Beldo K</h3>
-                <p className="text-xs text-yellow-500">Muhalaque</p>
+                <h3 className="font-bold text-white">Barbearia</h3>
+                <p className="text-xs text-yellow-500">Premium</p>
               </div>
             </div>
             <p className="text-sm text-gray-400">
@@ -85,7 +85,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-gray-500 md:text-left">
-            &copy; {currentYear} Beldo K Muhalaque Barbershop. Todos os direitos
+            &copy; {currentYear} Barbearia Premium. Todos os direitos
             reservados.
           </p>
           <div className="flex gap-6">

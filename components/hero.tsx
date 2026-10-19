@@ -6,8 +6,8 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/bkm-logo.png"
-          alt="BKM Logo"
+          src="/barbershop-hero.png"
+          alt="Interior de uma barbearia"
           className="h-full w-full object-cover opacity-15"
         />
       </div>
@@ -49,10 +49,10 @@ export function Hero() {
 
         {/* Main Heading */}
         <h1 className="mb-6 text-balance text-6xl font-bold leading-tight md:text-7xl">
-          <span className="text-white">Beldo K</span>
+          <span className="text-white">Barbearia</span>
           <br />
           <span className="bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 bg-clip-text text-transparent">
-            Muhalaque
+            Premium
           </span>
         </h1>
 

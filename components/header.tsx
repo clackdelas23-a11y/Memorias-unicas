@@ -27,8 +27,8 @@ export function Header() {
               <Scissors className="h-6 w-6 text-white" />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-sm font-bold text-white">Beldo K</h1>
-              <p className="text-xs text-yellow-500">Muhalaque</p>
+              <h1 className="text-sm font-bold text-white">Barbearia</h1>
+              <p className="text-xs text-yellow-500">Premium</p>
             </div>
           </div>
 

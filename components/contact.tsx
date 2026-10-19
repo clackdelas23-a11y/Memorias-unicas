@@ -38,10 +38,10 @@ export function Contact() {
             </div>
             <h3 className="mb-2 font-semibold text-white">Email</h3>
             <a
-              href="mailto:beldojuliao@gmail.com"
+              href="mailto:contato@barbearia.com"
               className="break-all text-gray-300 transition-colors hover:text-yellow-500"
             >
-              beldojuliao@gmail.com
+              contato@barbearia.com
             </a>
           </div>
 
