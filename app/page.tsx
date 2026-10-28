@@ -500,7 +500,7 @@ export default function Home() {
       </motion.button>
 
       <motion.a
-        href="https://wa.me/258852990478?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20produtos%20Mufuifresh"
+        href="https://api.whatsapp.com/send/?phone=258852990478&text=Ol%C3%A1%2C+gostaria+de+informa%C3%A7%C3%B5es+sobre+os+produtos+Mufuifresh&type=phone_number&app_absent=0"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-24 right-8 w-14 h-14 bg-[#25D366] hover:bg-[#1eaa4f] text-white rounded-full flex items-center justify-center z-50 shadow-2xl transition-colors"
